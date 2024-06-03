@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMenu"
+    android:background="#EFF8FD">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout8"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout4">
+
+            <ImageButton
+                android:id="@+id/imageButtonStudentClassroom"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/tclass" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginBottom="10dp"
+                android:text="Classroom" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout1">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Raporlama" />
+
+            <ImageButton
+                android:id="@+id/imageButtonOgrenciRapor"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                android:src="@drawable/uyaritr"
+                tools:srcCompat="@drawable/uyaritr" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="40dp"
+            android:text="Yıldız Teknik Üniversitesi\n Öğrenci Sistemi"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/YTU"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.039"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ytu"
+            tools:srcCompat="@drawable/ytu" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/YTU">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Bilgilerim" />
+
+            <ImageButton
+                android:id="@+id/imageButtonStudentBilgi"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="30dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                android:src="@drawable/usertr"
+                tools:srcCompat="@drawable/usertr" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Ders Listele" />
+
+            <ImageButton
+                android:id="@+id/imageButtonOgrenciDersListele"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                android:src="@drawable/listetr"
+                tools:srcCompat="@drawable/listetr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/YTU">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Ders göruntüle" />
+
+            <ImageButton
+                android:id="@+id/imageButtonStudentDersgör"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                android:src="@drawable/derstr"
+                tools:srcCompat="@drawable/derstr" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout5">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Anket Modülü" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPollQuestionar"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#C42D3F77"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/chat" />
+        </RelativeLayout>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Logout"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/red"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YtuObs</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Şifre</string>
+    <string name="register_textView"> <u>Hesabın yok mu?</u>.</string>
+    <string name="chance_password_textView"> <u>Şifremi Unuttum</u>.</string>
+    <string name="incompleded_poll"> <u>Tamamlanmayan Anketler</u></string>
+    <string name="completed_poll"> <u>Tamamlanan Anketler</u></string>
+    <string name="go_to_login_textView"> <u>Giriş Sayfası</u>.</string>
+
+</resources>

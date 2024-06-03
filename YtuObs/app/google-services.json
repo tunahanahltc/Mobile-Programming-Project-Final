@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "944042175723",
+    "firebase_url": "https://mobile-programming-app-7016f-default-rtdb.firebaseio.com",
+    "project_id": "mobile-programming-app-7016f",
+    "storage_bucket": "mobile-programming-app-7016f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944042175723:android:f4341a5022f455f03422ae",
+        "android_client_info": {
+          "package_name": "com.example.ytuobs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9p0KjMY2GlW8GRSTUS_TMsl--Kr9eq24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

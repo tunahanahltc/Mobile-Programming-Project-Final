@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF8FD"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Bölüm 2: Soru Girişi ve Cevaplar -->
+        <TextView
+            android:id="@+id/textViewQuestionSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anket Soruları"
+            android:textSize="18sp"
+            android:paddingTop="24dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textViewQuestionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soru"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editTextQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soru Metnini Girin"/>
+
+        <TextView
+            android:id="@+id/textViewAnswerCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cevap Sayısı"
+            android:textSize="16sp"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextAnswerCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cevap Sayısını Girin"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonAddQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soru Ekle"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

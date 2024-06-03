@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF8FD"
+    android:layout_gravity="center"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textViewPageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Anket Sayfası"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281">
+
+
+        <TextView
+            android:id="@+id/textViewSurveyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Anket Adı"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextSurveyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Anket Adını Girin" />
+
+        <TextView
+            android:id="@+id/textViewQuestionCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Soru Sayısı"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextQuestionCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soru Sayısını Girin"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonCreateSurvey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Anket Oluştur" />
+
+        <Button
+            android:id="@+id/buttonListAllPoll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Anketleri Listele" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
